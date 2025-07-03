@@ -49,3 +49,21 @@ new_list.insert (2, "coba")
 new_list.pop()
 new_list.remove(90)
 print(new_list)
+
+#list comprehensive
+
+seq = []
+seq2 = []
+seq3 = []
+for x in range(1,50):
+    if x % 2 == 0 :
+        seq.append(x)
+    else :
+        seq2.append(x)
+
+    if x % 7 == 0 :
+        seq3.append(x)
+
+print(seq)
+print(seq2)
+print(seq3)
