@@ -10,3 +10,5 @@ new_tuple = (23,40,"andrew", True)
 
 for x, y in enumerate (new_tuple) :
      print(f"tuple index {x} isinya adalah {y}")
+
+     
